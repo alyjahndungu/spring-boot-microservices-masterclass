@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: ternscode-property-access-service
+server:
+  port: 8100

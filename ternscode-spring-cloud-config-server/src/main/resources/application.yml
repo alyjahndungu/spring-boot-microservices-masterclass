@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: ternscode-spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/elijah-systems/spring-boot-microservices.git
+
+
+server:
+  port: 8888
